@@ -5,12 +5,12 @@
   Thank you for visiting our account. We are going to make a simple photo frame app in an hour. If would you like to study yourself before hands-on, or review what you have learned in the session, please use the following material.
 
 ## Meetup
-We are providing free hands-on on a monthly basis<br>
-https://www.meetup.com/iOS-Development-Meetup-for-Beginner/
+  We are providing free hands-on on a monthly basis<br>
+  https://www.meetup.com/iOS-Development-Meetup-for-Beginner/
 
 ## Do you need a tutor?
-We also hold face-to-face or group lesson for individual interested in making iOS app themselves<br>
-http://ios-class-for-beginner.esy.es/
+  We also hold face-to-face or group lesson for individual interested in making iOS app themselves<br>
+  http://ios-class-for-beginner.esy.es/
 
 ## Development Environment
   XCode 8.1 / Swift 3
@@ -55,7 +55,7 @@ http://ios-class-for-beginner.esy.es/
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/musicPlayer-en/blob/master/Resources/8.gif" /></div>
 
 #### 3, Add code blocks in ViewController.swift
-★It's preferable to write following code yourself. It will help you to understand code more.
+  ★  It's preferable to write following code yourself. It will help you to understand code more.
 
 ```Swift  
 import UIKit
