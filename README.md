@@ -31,20 +31,23 @@ http://ios-class-for-beginner.esy.es/
 
 #### 1, Collect photos → Drag & Drop your resources into your project
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/musicPlayer-en/blob/master/Resources/0.png" /></div>
-  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/musicPlayer-en/blob/master/Resources/0.gif" /></div>
-
-#### 2, Design app
-> 2-1. Drap & Drop "UIScrollView" from UI components
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/musicPlayer-en/blob/master/Resources/1.gif" /></div>
 
-> 2-2. Resize ScrollView
+#### 2, Design app
+> 2-1. Drap & Drop "UIImageView" from UI components
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/musicPlayer-en/blob/master/Resources/2.gif" /></div>
 
-> 2-3. Set "Autoresizing" for adjusting frame depending on devices
+> 2-2. Resize the imageView
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/musicPlayer-en/blob/master/Resources/3.gif" /></div>
 
-> 2-4. Connect UI components on Storyboard to ViewController.swift
+> 2-3. Set "Autoresizing" for adjusting frame depending on devices
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/musicPlayer-en/blob/master/Resources/4.gif" /></div>
+
+> 2-5. Add UIButton in the same process from 2-1 to 2-3
+  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/musicPlayer-en/blob/master/Resources/5.gif" /></div>
+  
+> 2-5. Connect UI components on Storyboard to ViewController.swift
+  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/musicPlayer-en/blob/master/Resources/6.gif" /></div>
 
 #### 3, Add code blocks in ViewController.swift
 ★It's preferable to write following code yourself. It will help you to understand code more.
