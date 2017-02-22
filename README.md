@@ -48,13 +48,50 @@ http://ios-class-for-beginner.esy.es/
 
 > 2-5. Add UIButton in the same process from 2-1 to 2-3
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/musicPlayer-en/blob/master/Resources/6.gif" /></div>
+  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/musicPlayer-en/blob/master/Resources/7.gif" /></div>  
   
 > 2-6. Connect UI components on Storyboard to ViewController.swift
-  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/musicPlayer-en/blob/master/Resources/7.gif" /></div>
+  ★  control + drag in storyboard to create a control segue
+  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/musicPlayer-en/blob/master/Resources/8.gif" /></div>
 
 #### 3, Add code blocks in ViewController.swift
 ★It's preferable to write following code yourself. It will help you to understand code more.
 
 ```Swift  
+import UIKit
+import AVFoundation
 
+class ViewController: UIViewController
+{
+    var audioPlayer: AVAudioPlayer!
+    
+    override func viewDidLoad()
+    {
+        super.viewDidLoad()
+        
+        // Get file path
+        let filePath = Bundle.main.path(forResource: "music", ofType: "mp3")
+        let audioPath = URL(fileURLWithPath: filePath!)
+        
+        do {
+            // Initialize audio player
+            audioPlayer = try AVAudioPlayer(contentsOf: audioPath)
+            audioPlayer.prepareToPlay()
+        } catch {
+            print("Error")
+        }
+    }
+
+    @IBAction func tappedPlay(_ sender: Any)
+    {
+        // Play
+        audioPlayer.play()
+    }
+    
+    @IBAction func tappedStop(_ sender: Any)
+    {
+        // Stop
+        audioPlayer.stop()
+    }
+}
 ```
