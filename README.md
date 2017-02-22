@@ -51,7 +51,7 @@
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/musicPlayer-en/blob/master/Resources/7.gif" /></div>  
   
 > 2-6. Connect UI components on Storyboard to ViewController.swift
-  ★  control + drag in storyboard to create a control segue
+  ★  control + drag in storyboard to create a control segue<br>
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/musicPlayer-en/blob/master/Resources/8.gif" /></div>
 
 #### 3, Add code blocks in ViewController.swift
